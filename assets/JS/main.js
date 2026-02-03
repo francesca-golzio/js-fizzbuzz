@@ -7,7 +7,9 @@ console.log("🟢 I'm here")
 /* Program implementation */
 
   // Print numbers 1-100
-  
+  for(let i = 1; i <= 100; i++) {
+    // console.log(i)
+  }
 
   // (check) IF n multiple of 3
     // Print 'Fizz'
