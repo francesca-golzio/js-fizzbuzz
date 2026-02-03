@@ -10,20 +10,24 @@ console.log("🟢 I'm here")
 for (let i = 1; i <= 100; i++) {
   console.log(i)
 
-  /* (check) IF n multiple of 3 */
+  /* (check) IF number (i) multiple of 3 */
   if (i % 3 === 0) {
     // Print 'Fizz'
     console.log('Fizz')
-  } else if (i % 5 === 0) { /* (check) IF n multiple of 5 */
+  } else if (i % 5 === 0) { 
+    /* ↑↑ (check) IF number (i) multiple of 5 */
     // Print 'Buzz'
     console.log('Buzz')
+  } else if((i % 3 === 0) && (i % 5 === 0)) {
+    // ↑↑ (check) IF number (i) multiple of 3 AND 5
+    // Print 'FizzBuzz'
+    console.log('FizzBuzz')
   }
+  
 }
 
 
 
-// (check) IF n multiple of 3 AND 5
-// Print 'FizzBuzz'
 
 
 
